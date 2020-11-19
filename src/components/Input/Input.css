@@ -1,0 +1,38 @@
+.input-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 20%;
+}
+
+.input-bar {
+  background: #373940;
+  border-radius: 5px;
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #61dafb;
+  color: #ffffff;
+}
+
+.input-bar::placeholder {
+  color: #0188ad;
+}
+
+.input-bar:focus {
+  background-color: #44464b;
+  outline: 1px solid #61dafb;
+}
+
+.input-button {
+  background-color: #61dafb;
+}
+
+.input-button:hover {
+  background-color: #18cdff;
+  transition: 500ms;
+}
+
+ion-icon {
+  height: 18px;
+  width: 18px;
+}

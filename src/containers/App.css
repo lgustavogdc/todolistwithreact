@@ -1,0 +1,17 @@
+.App {
+}
+
+button {
+  width: 40px;
+  height: 30px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
